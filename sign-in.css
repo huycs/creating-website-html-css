@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.sign-in-form {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+
+.sign-in-form h1 {
+    color: #17cc2f;
+}
+
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+button {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.sign-in-btn {
+    background-color: #1cdb36;
+}
+
+.facebook-btn {
+    background-color: #40f73a;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+hr {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.or {
+    width: 30px;
+    background: #fff;
+    margin: -24px auto 10px; 
+}
+
+img {
+    width: 20%;    
+    margin-top: -70px;
+}
+
+/* Menu */
+.menu {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+}
+
+.menu-links {
+    display: none;
+}
+
+.brand-name {
+    font-size: 1.5em;
+    margin: .5em;
+}
+
+.brand-name a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.brand-name a:hover {
+    color: rgb(185, 182, 182);
+}
+
+.btn {
+    position: absolute;
+    top: .75em;
+    right: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+}
+
+.btn .bar {
+    height: 3px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+}
+
+
+@media (min-width: 768px) {
+    
+    .menu-links {
+        display: unset;
+    }
+
+    .menu-links ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    .menu-links li {
+        list-style: none;
+    } 
+    
+    .menu-links li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 1em;
+        display: block;
+    }
+
+    .menu-links li:hover {
+        background: #555;        
+    }
+
+    .btn {
+        display: none;
+    }
+} 
